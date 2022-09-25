@@ -31,15 +31,20 @@ h1, h2 {
   
 p {    
   color: white;
-  text-align: center;
+  /* text-align: left; */
   font-family: 'Lato', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0, 50px, 0, 50px;
+}
+
+iframe {
+  align-self: center;
 }
 
 section {
   padding: 2rem;
   margin: 0 2rem 2rem 0;
+  text-align: justify;
 }
 
 table {
@@ -47,7 +52,7 @@ table {
   border-collapse: collapse;
   border: 1px solid black;
   width: 100%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 td, th {
